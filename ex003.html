@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <Style>
+            body{
+                background-color: rgb(144, 144, 219); /*aqui um comentário css*/
+                color: white;
+                font: normal 20px arial;
+            }
+
+            h1{
+                color: rgb(204, 248, 43);
+            }
+        </Style>
+    </head>
+    <body>
+        <h1>Olá, mundo!</h1> <!-- isso é um comentário em html-->
+        <p>Já me livrei da maldição!</p>
+        <script>
+           var n1 = Number(window.prompt("Digite um número: ")) //conversão de string para número, inteiro ou não inteiros, parseFloat ou parseInt, e quando nao preciso de algo específico, posso apenas declarar como Number e o javaScript para identificar, se inteiro ou float!
+           var n2 = Number(window.prompt("Digite outro número: ")) //string
+           var s = n1 + n2
+           window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+           /*o "+" tem efeito de concatenação, e como somar? para adição tem que ser number + number, e para concatenação tem que ser string + string.
+           vou precisar converter o string em number!*/
+           //para usar "TAMPLET STRING ${}, é precisa está entre crase!**
+            
+        </script>
+    
+    </body>
+</html>
