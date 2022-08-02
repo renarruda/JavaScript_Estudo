@@ -22,7 +22,7 @@
         <p>Já me livrei da maldição!</p>
         <script>
            var n1 = Number(window.prompt("Digite um número: ")) //conversão de string para número, inteiro ou não inteiros, parseFloat ou parseInt, e quando nao preciso de algo específico, posso apenas declarar como Number e o javaScript para identificar, se inteiro ou float!
-           var n2 = Number(window.prompt("Digite outro número: ")) //string
+           var n2 = Number(window.prompt("Digite outro número: ")) //string, convertida em número
            var s = n1 + n2
            window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
            /*o "+" tem efeito de concatenação, e como somar? para adição tem que ser number + number, e para concatenação tem que ser string + string.
@@ -33,3 +33,10 @@
     
     </body>
 </html>
+
+<!--window.prompet retorna uma string, mesmo sendo número. Então é necessário converter para número! string para número: Number.parseInt(n) e Number.parseFloat(n) e o Number(n) faz com que o próprio javascript decida se é uma string ou número, como está no código acima!-->
+
+<!--e para string, String(s) ou s.toString()-->
+
+<!--a template string ${}, toda a frase tem que está entre crase-->
+
